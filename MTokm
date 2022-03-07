@@ -1,0 +1,17 @@
+import java.util.*;
+
+class MTokm {
+public static void main (String  args [])
+{  
+       Scanner sc=new Scanner(System.in);
+//double 	   m =  km*1000; 
+  //     double  km =  m/1000;
+	   System.out.println( "enter  the   value  of  km");
+			int numKm=sc.nextInt();
+	   System.out.println( "enter  the  value  of  m");
+			int numM=sc.nextInt();
+			
+			System.out.println( "  length in meter = "   + numKm*1000 +"meters");
+			System.out.println( "length in kilometer  = " + numM/1000 + "km");
+		}
+	}
